@@ -12,6 +12,8 @@
 		C0D80ACE208B980300B6357F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D80ACC208B980300B6357F /* Main.storyboard */; };
 		C0D80AD0208B980400B6357F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D80ACF208B980400B6357F /* Assets.xcassets */; };
 		C0D80AD3208B980400B6357F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D80AD1208B980400B6357F /* LaunchScreen.storyboard */; };
+		C0D80ADD208B9DA300B6357F /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D80ADC208B9DA300B6357F /* HeroViewController.swift */; };
+		C0D80ADF208BA09000B6357F /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D80ADE208BA09000B6357F /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C0D80ACF208B980400B6357F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0D80AD2208B980400B6357F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0D80AD4208B980400B6357F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D80ADC208B9DA300B6357F /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeroViewController.swift; path = ../HeroViewController.swift; sourceTree = "<group>"; };
+		C0D80ADE208BA09000B6357F /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		C0D80AC7208B980300B6357F /* ApiDataWithImages */ = {
 			isa = PBXGroup;
 			children = (
+				C0D80ADE208BA09000B6357F /* HeroStats.swift */,
 				C0D80AC8208B980300B6357F /* AppDelegate.swift */,
+				C0D80ADC208B9DA300B6357F /* HeroViewController.swift */,
 				C0D80ACA208B980300B6357F /* ViewController.swift */,
 				C0D80ACC208B980300B6357F /* Main.storyboard */,
 				C0D80ACF208B980400B6357F /* Assets.xcassets */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D80ACB208B980300B6357F /* ViewController.swift in Sources */,
+				C0D80ADD208B9DA300B6357F /* HeroViewController.swift in Sources */,
 				C0D80AC9208B980300B6357F /* AppDelegate.swift in Sources */,
+				C0D80ADF208BA09000B6357F /* HeroStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
