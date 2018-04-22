@@ -15,3 +15,4 @@ struct HeroStats :Decodable {
     let legs: Int
     let img: String
 }
+

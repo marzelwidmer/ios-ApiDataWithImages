@@ -58,10 +58,10 @@
 		C0D80AC7208B980300B6357F /* ApiDataWithImages */ = {
 			isa = PBXGroup;
 			children = (
-				C0D80ADE208BA09000B6357F /* HeroStats.swift */,
 				C0D80AC8208B980300B6357F /* AppDelegate.swift */,
-				C0D80ADC208B9DA300B6357F /* HeroViewController.swift */,
 				C0D80ACA208B980300B6357F /* ViewController.swift */,
+				C0D80ADC208B9DA300B6357F /* HeroViewController.swift */,
+				C0D80ADE208BA09000B6357F /* HeroStats.swift */,
 				C0D80ACC208B980300B6357F /* Main.storyboard */,
 				C0D80ACF208B980400B6357F /* Assets.xcassets */,
 				C0D80AD1208B980400B6357F /* LaunchScreen.storyboard */,
